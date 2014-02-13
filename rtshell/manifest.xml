@@ -13,6 +13,8 @@
 
   <url>https://github.com/gbiggs/rtshell</url>
 
+  <rosdep name="unzip" />
+
   <depend package="rtctree" />
   <depend package="rtsprofile" />
 
