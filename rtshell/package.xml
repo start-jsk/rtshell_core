@@ -17,6 +17,7 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>unzip</build_depend>
+  <build_depend>rostest</build_depend>
 
   <export/>
 </package>

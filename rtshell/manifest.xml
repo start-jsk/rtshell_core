@@ -18,6 +18,8 @@
   <depend package="rtctree" />
   <depend package="rtsprofile" />
 
+  <rosdep name="rostest" />
+
   <export>
     <python path="${prefix}/lib/python2.7/site-packages" />
   </export>
