@@ -21,6 +21,8 @@
   <rosdep name="rostest" />
   <rosdep name="mk" />
 
+  <rosdep name="omniorb" />
+
   <export>
     <python path="${prefix}/lib/python2.7/dist-packages" />
   </export>
