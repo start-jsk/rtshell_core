@@ -18,6 +18,7 @@
   </export>
 
   <rosdep name="unzip" />
+  <rosdep name="mk" />
 
 </package>
 

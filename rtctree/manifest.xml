@@ -14,6 +14,7 @@
   <url>https://github.com/gbiggs/rtctree</url>
 
   <rosdep name="unzip" />
+  <rosdep name="mk" />
   <rosdep name="python-omniorb" />
 
   <export>
