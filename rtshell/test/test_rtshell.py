@@ -22,6 +22,10 @@ class TestRtshellOnline(unittest.TestCase):
         # check if rtshell runs
         check_call(['rosrun','rtshell','rtls'])
 
+    def test_rtcryo(self):
+        # check if rtcryo runs
+        check_call(['rosrun','rtshell','rtcryo'])
+
     def test_share(self):
         # check if rtshell runs
         self.assertTrue(os.path.exists(os.path.join(check_output(['rospack','find','rtshell']).rstrip(), "share/rtshell/shell_support")))
