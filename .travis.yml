@@ -43,8 +43,9 @@ script: # All commands must exit with code 0 on success. Anything else is consid
   - catkin_make
   - catkin_make test
   - catkin_make install
+  - rm -fr devel src
   - source install/setup.bash
-  - catkin_make test
+  - find install -iname "*.test" -exec rostest {} \;
 after_failure:
   - cat ./build/Testing/Temporary/LastTest.log
 
