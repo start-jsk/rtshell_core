@@ -20,8 +20,7 @@
   <build_depend>rosbuild</build_depend>
   <build_depend>rosbash</build_depend>
   <build_depend>rostest</build_depend>
-
-  <test_depend>omniorb</test_depend>
+  <build_depend>omniorb</build_depend>
 
   <export/>
 </package>
