@@ -22,5 +22,8 @@
   <build_depend>rostest</build_depend>
   <build_depend>omniorb</build_depend>
 
+  <run_depend>rtctree</run_depend>
+  <run_depend>rtsprofile</run_depend>
+
   <export/>
 </package>
