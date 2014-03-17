@@ -18,6 +18,9 @@ class TestRtshellOnline(unittest.TestCase):
     PYTHONPATH = ''
 
     def setUp(self):
+        if call('netstat -tulpn  | grep :2809', shell=True) != 0 :
+            return self.skipTest("nameserver is not running")
+
         rtshell_path = check_output(['rospack','find','rtshell']).rstrip()
         # if rosbuild environment
         if os.path.exists(os.path.join(rtshell_path, "bin")) :
