@@ -18,9 +18,6 @@ class TestRtshellOnline(unittest.TestCase):
     PYTHONPATH = ''
 
     def setUp(self):
-        if call('netstat -tulpn  | grep :2809', shell=True) != 0 :
-            return self.skipTest("nameserver is not running")
-
         rtshell_path = check_output(['rospack','find','rtshell']).rstrip()
         # if rosbuild environment
         if os.path.exists(os.path.join(rtshell_path, "bin")) :
@@ -31,13 +28,13 @@ class TestRtshellOnline(unittest.TestCase):
 
     def test_rtls(self):
         try:
-            check_output('RTCTREE_NAMESERVERS=localhost:2809 %s rosrun rtshell rtls'%(self.PYTHONPATH), shell=True, stderr=subprocess.STDOUT)
+            check_output('%s rosrun rtshell rtls'%(self.PYTHONPATH), shell=True, stderr=subprocess.STDOUT)
         except subprocess.CalledProcessError, (e):
             self.assertTrue(False, 'subprocess.CalledProcessError: cmd:%s returncode:%s output:%s' % (e.cmd, e.returncode, e.output))
 
     def test_rtcryo(self):
         try:
-            check_output('RTCTREE_NAMESERVERS=localhost:2809 %s rosrun rtshell rtcryo'%(self.PYTHONPATH), shell=True, stderr=subprocess.STDOUT)
+            check_output('%s rosrun rtshell rtcryo'%(self.PYTHONPATH), shell=True, stderr=subprocess.STDOUT)
         except subprocess.CalledProcessError, (e):
             self.assertTrue(False, 'subprocess.CalledProcessError: cmd:%s returncode:%s output:%s' % (e.cmd, e.returncode, e.output))
 
