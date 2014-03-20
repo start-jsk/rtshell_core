@@ -6,10 +6,11 @@ Metapackage that contains commonly used toolset for RT-Middleware-based modules 
 
 Test Status
 -----------
-[Hydro](http://jenkins.ros.org/job/devel-hydro-rtshell_core/)
+[Hydro](http://jenkins.ros.org/job/devel-hydro-rtshell_core/) [![Build Status](http://jenkins.ros.org/job/devel-hydro-rtshell_core/badge/icon)](http://jenkins.ros.org/job/devel-hydro-rtshell_core/)
+
 
 [![Hydro Test Satus](http://jenkins.ros.org/job/devel-hydro-rtshell_core/test/trend)](http://jenkins.ros.org/job/devel-hydro-rtshell_core/)
 
-[Groovy](http://jenkins.ros.org/job/devel-groovy-rtshell_core/)
+[Groovy](http://jenkins.ros.org/job/devel-groovy-rtshell_core/) [![Build Status](http://jenkins.ros.org/job/devel-groovy-rtshell_core/badge/icon)](http://jenkins.ros.org/job/devel-groovy-rtshell_core/)
 
 [![Groovy Test Satus](http://jenkins.ros.org/job/devel-groovy-rtshell_core/test/trend)](http://jenkins.ros.org/job/devel-groovy-rtshell_core/)
