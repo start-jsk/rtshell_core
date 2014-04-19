@@ -2,6 +2,9 @@
 Changelog for package rtshell
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 3.0.1 (2014-04-17)
 ------------------
 * Download 3.0.1 tarball
