@@ -2,6 +2,11 @@
 Changelog for package rtsprofile
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add depends to git and CA-cert fix
+* Contributors: Kei Okada
+
 3.0.2 (2014-04-19)
 ------------------
 
