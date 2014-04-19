@@ -2,8 +2,8 @@
 Changelog for package rtctree
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.2 (2014-04-19)
+------------------
 * use 3.0.1 of rtctree, due to #34
 * Contributors: Kei Okada
 
