@@ -26,5 +26,7 @@
   <run_depend>rtctree</run_depend>
   <run_depend>rtsprofile</run_depend>
 
+  <test_depend>openrtm_aist</test_depend>
+
   <export/>
 </package>
